@@ -1,5 +1,6 @@
-/* Parallax base styles
-  --------------------------------------------- */
+/* PARALLAX */
+
+/* Parallax base styles*/
 
 .parallax {
   height: 100px;
@@ -53,7 +54,6 @@
   -webkit-transform: translateZ(-300px) scale(2);
   transform: translateZ(-300px) scale(2);
   z-index: 3;
-  /* background: black; */
 
 }
 
@@ -61,21 +61,15 @@
   -webkit-transform: translateZ(-600px) scale(3);
   transform: translateZ(-600px) scale(3);
   z-index: 2;
-  /* background: black; */
 
 }
 
 
-/* demo styles
-  --------------------------------------------- */
+/* PARALLAXstyles */
 
 body,
 html {
   overflow: hidden;
-}
-
-body {
-  /* font: 100% / 1.5 Arial; */
 }
 
 * {
@@ -83,9 +77,7 @@ body {
   padding: 0;
 }
 
-.parallax {
-  /* font-size: 200%; */
-}
+
 
 /* centre the content in the parallax layers */
 .title {
@@ -99,8 +91,7 @@ body {
 
 
 
-/* style the groups
-  --------------------------------------------- */
+/* style PARALLAX groups*/
 
 #group1 {
   z-index: 5;
@@ -119,10 +110,7 @@ body {
   /* slide under groups 1 and 3 */
 }
 
-#group2 .parallax__layer--back {
-  /* background: black; */
 
-}
 
 #group3 {
   z-index: 4;
@@ -130,19 +118,13 @@ body {
 
 }
 
-#group3 .parallax__layer--base {
-  /* background: white; */
-
-}
 
 #group4 {
   z-index: 2;
   /* slide under group 3 and 5 */
 }
 
-#group4 .parallax__layer--deep {
-  /* background: white; */
-}
+
 
 #group5 {
   z-index: 3;
@@ -174,8 +156,7 @@ body {
 }
 
 
-/* misc
-  --------------------------------------------- */
+/* /* HELPS THE NAV */
 .demo__info {
   position: absolute;
   z-index: 100;
@@ -186,9 +167,8 @@ body {
   width: 100%;
 }
 
-
+/* ALL IMAGES */
 img {
-  /* width: 100vw; */
   background-position: center;
   background-repeat: 100% auto;
   background-size: cover;
@@ -196,7 +176,7 @@ img {
 
 
 
-
+/* ANIMATION */
 #showcase {
   height: 300px;
 }
@@ -241,22 +221,6 @@ img {
   100% {
     top: 0px
   }
-}
-
-
-
-
-
-
-
-.contact {
-  margin-top: 900px;
-  width: 90%;
-  height: 800px;
-}
-
-.contactText {
-  margin-top: 500px;
 }
 
 
@@ -450,4 +414,17 @@ img {
     opacity: 0;
 
   }
+}
+
+
+
+/* CONTACT */
+.contact {
+  margin-top: 900px;
+  width: 90%;
+  height: 800px;
+}
+
+.contactText {
+  margin-top: 500px;
 }
