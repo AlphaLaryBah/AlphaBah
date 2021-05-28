@@ -2,8 +2,10 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <!-- Bootstrap CSS -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+)RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <!-- custom -->
@@ -11,15 +13,33 @@
   <!-- fontawsome -->
   <script src="https://kit.fontawesome.com/e08ba8ba00.js" crossorigin="anonymous"></script>
   <title>Alpha Bah</title>
+  <style>
+        .bgimg {
+                      background-image: url("images/snake.jpg");
+                       height: 100%;
+    margin: 0;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+            /* min-height: 70%; */
+        }
+
+        
+    </style>
 </head>
 
-<body>
-  <div class="parallax">
-    <div id="group1" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <!-- NAVIGATION -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class='bgimg  '>
 
+
+
+  <!-- <div class="parallax bgimg">
+    <div id="group1" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base"> -->
+        <!-- NAVIGATION -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">{Alpha:"Bah"}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -28,68 +48,129 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#about">About</a>
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="projects.html">Projects</a>
                 <a class="nav-link" href="#contact">Contact</a>
-
+      
               </div>
             </div>
           </div>
         </nav>
+       
         <!-- ANIMATION -->
         <!-- Animation words -->
-        <div class="title" id="layer1">
-          <h1>Full Stack</h1>
+        <div class="title shadow-lg p-1 mb-5 bg-white rounded " id="">
+
+
+
+          <!-- <h1 class="animateBg">Full Stack</h1> -->
         </div>
 
         <header id="showcase">
+          <!-- <div class="title shadow-lg p-1 mb-5 bg-white rounded  d-flex justify-content-center w-70" id=""> -->
+
+
+ <!-- <img class=" shadow-lg  mb-2 bg-white rounded  " src="images/Last.jpg" style="width:100%;" alt="LastS painting"> -->
+
+          <!-- <h1 class="animateBg">Full Stack</h1> -->
+          </div>
+
+                    <!-- <img class=" fill" src="images/flower1.jpeg" style="width:100%;" alt="flowe1 drawing"> -->
+
+
           <!-- <h1> Software </h1> -->
         </header>
-        <div id="content" class="container">
-          <h1> Software Developer </h1>
+        <div id="content" class="container ">
+                    <!-- <h1 class="animateBg">Full Stack</h1> -->
+
+          <!-- <h1 class="bg-dark text-light"> Software Developer </h1> -->
+ 
 
           <!-- <div class=" rounded p-1" style="background:#094b65"></div> -->
           <!-- Animation logos-->
           <div class="mt-5 text-center">
             <img src="images/HTML5_Logo_64.png" class="htmlLogo" alt="htmlLogo">
-            <img src="images/bootstrap-logo.png" class="bootstrapLogo" alt="bootstrapLogo">
+            <img src="images/boot.png" class="bootstrapLogo" alt="bootstrapLogo">
 
             <img src="images/javascript.png" class="jsLogo" alt="jsLogo">
             <img src="images/react.png" class="reactLogo" alt="reactLogo">
 
             <img src="images/git-logo.png" class="gitLogo" alt="gitLogo">
-            <img src="images/mongo-logo.png" class="mongoLogo" alt="mongoLogo">
-            <img src="images/node-logo.png" class="nodeLogo" alt="nodeLogo">
+            <img src="images/mongoO.png" class="mongoLogo bg-light" alt="mongoLogo">
+            <img src="images/node.png" class="nodeLogo" alt="nodeLogo">
           </div>
         </div>
-        <div>
+        <!-- <div>
         </div>
       </div>
     </div>
-    <div id="group2" class="parallax__group ">
-      <div class="parallax__layer parallax__layer--base ">
+ </div> -->
+<!-- FOOTER/CONTACT -->
+          <!-- <div class="container-fluid" id="contact"> -->
+            <div class="row mb-0">
+              <div class="col-sm-6 col-md-12 mb-0">
+
+                <ul class="nav justify-content-center shadow-lg p-3 mb-5 bg-white rounded" style="height:200px">
+                  <li class="nav-item" id="contact">
+                    <a class="nav-link" href=""><i class="fas fa-arrow-circle-up "
+                        style="font-size: 60px; color:black"></i></a>
+                  </li>
+                  
+                  <!-- email -->
+                  <li class="nav-item">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="mailto:alphalarybah@gmail.com" role="button" data-mdb-ripple-color="dark"><i
+                        class="fas fa-envelope display-2"></i></a>
+                  </li>
+
+                  <!-- phone -->
+                  <li class="nav-item">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="tel:3038856862"
+                      role="button" data-mdb-ripple-color="dark"><i
+                        class="fas fa-mobile-alt display-2"></i></a>
+                  </li>
+
+                  <!-- Github -->
+                  <li class="nav-item">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="https://github.com/AlphaLaryBah" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-github display-2"></i></a>
+
+                  </li>
+                  <!-- email -->
+                  <li class="nav-item">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="https://github.com/AlphaLaryBah" role="button" data-mdb-ripple-color="dark">  <i class="fab fa-linkedin display-2"></i>
+                    </a>
+                  </li>
+                  </ul>
+              </div>
+            </div>
+          <!-- </div> -->
+    
+    <!-- <div id="group2" class="parallax__group ">
+      <div class="parallax__layer parallax__layer--base "> -->
         <!-- <div class="title">Base Layer</div> -->
-      </div>
-      <div class="parallax__layer parallax__layer--back bg-dark ">
+      <!-- </div>
+      <div class="parallax__layer parallax__layer--back bg-dark "> -->
         <!-- <div class="title">Background Layer</div> -->
-        <img class=" fill" src="images/flower1.jpeg" style="width:100%;" alt="flowe1 drawing">
-
-        <img class=" fill" src="images/lastS.jpg" style="width:100%;" alt="LastS painting">
 
 
-      </div>
 
-    </div>
+      <!-- </div> -->
+
+    <!-- </div>
     <div id="group3" class="parallax__group bg-dark ">
       <div class="parallax__layer parallax__layer--fore ">
-        <!-- <div class="title">Foreground Layer</div> -->
-      </div>
-      <div class="parallax__layer parallax__layer--base ">
+        <div class="title">Foreground Layer</div> -->
+      <!-- </div>
+      <div class="parallax__layer parallax__layer--base "> -->
         <!-- <div class="title">Base Layer</div> -->
 
         <!-- ABOUT ME -->
 
-        <div class="card bg-dark">
+        <!-- <div class="card bg-dark">
           <div class="card-body">
             <div class="card">
               <h4 class="card-header text-center  " id="about">Alpha's Bio</h4>
@@ -97,10 +178,10 @@
                 <h5 class="card-title text-center"> <span class="text-primary">let</span> <span
                     class="text-danger">greetings</span> = <span class="text-success">"Hello World!"</span>;
                 </h5>
-                <hr>
+                <hr> -->
 
 
-                <div class="container-fluid">
+                <!-- <div class="container-fluid">
                   <div class="row">
                     <div class="col-sm-6 col-md-12">
                       <div class="media">
@@ -194,45 +275,44 @@
 
             </div>
           </div>
-        </div>
+        </div> -->
 
 
 
 
-      </div>
+      <!-- </div>
       <div id="group7" class="parallax__group bg-dark ">
-        <div class="parallax__layer parallax__layer--base bg-dark">
+        <div class="parallax__layer parallax__layer--base bg-dark"> -->
           <!-- <div class="title">Base Layer</div> -->
 
 
-        </div>
+        <!-- </div>
       </div>
 
     </div>
     <div id="group4" class="parallax__group bg-dark ">
-      <div class="parallax__layer parallax__layer--base">
+      <div class="parallax__layer parallax__layer--base"> -->
         <!-- <div class="title">Base Layer</div> -->
-        <img src="images/flower2.jpeg" style="width:100%" alt="">
 
 
 
-      </div>
-      <div class="parallax__layer parallax__layer--back ">
+      <!-- </div>
+      <div class="parallax__layer parallax__layer--back "> -->
         <!-- <div class="title">Background Layer</div> -->
 
 
-      </div>
-      <div class="parallax__layer parallax__layer--deep">
+      <!-- </div>
+      <div class="parallax__layer parallax__layer--deep"> -->
         <!-- <div class="title ">Deep Background Layer</div> -->
-      </div>
+      <!-- </div>
     </div>
     <div id="group5" class="parallax__group bg-dark">
-      <div class="parallax__layer parallax__layer--fore" style="height: 800px;">
+      <div class="parallax__layer parallax__layer--fore" style="height: 800px;"> -->
         <!-- <div class="title">Foreground Layer</div> -->
 
         <!-- PROJECTS -->
 
-        <div class="card bg-dark mt-5">
+        <!-- <div class="card bg-dark mt-5">
           <div class="card-body">
 
             <div class="card fill ">
@@ -273,11 +353,11 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- </div> -->
 
-          <!-- CONTACT -->
+          <!-- CONTACT
           <div class="card mb-5">
             <div class="card-body bg-dark">
               <div class="card bg-dark mb-5">
@@ -287,8 +367,8 @@
                       Contact Me
                     </div>
                     <div class="card-body">
-                      <!-- FOOTER/CONTACT -->
-                      <div class="container-fluid">
+                       FOOTER/CONTACT -->
+                      <!-- <div class="container-fluid">
                         <div class="row">
                           <div class="col-sm-6 col-md-12">
 
@@ -300,24 +380,24 @@
                               </li>
                               <li class="nav-item ">
                                 <a class="nav-link active display-4" aria-current="page" href="#about">About</a>
-                              </li>
+                              </li> -->
 
                               <!-- email -->
-                              <li class="nav-item">
+                              <!-- <li class="nav-item">
                                 <a class="btn btn-link btn-floating btn-lg text-dark m-1"
                                   href="mailto:alphalarybah@gmail.com" role="button" data-mdb-ripple-color="dark"><i
                                     class="fas fa-envelope display-2"></i></a>
-                              </li>
+                              </li> -->
 
                               <!-- phone -->
-                              <li class="nav-item">
+                              <!-- <li class="nav-item">
                                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="tel:3038856862"
                                   role="button" data-mdb-ripple-color="dark"><i
                                     class="fas fa-mobile-alt display-2"></i></a>
-                              </li>
+                              </li> -->
 
                               <!-- Github -->
-                              <li class="nav-item">
+                              <!-- <li class="nav-item">
                                 <a class="btn btn-link btn-floating btn-lg text-dark m-1"
                                   href="https://github.com/AlphaLaryBah" role="button" data-mdb-ripple-color="dark"><i
                                     class="fab fa-github display-2"></i></a>
@@ -333,41 +413,41 @@
                   </div>
 
                 </div>
-              </div>
+              </div> -->
 
-            </div>
+            <!-- </div>
           </div>
-        </div>
+        </div> 
 
       </div>
       <div class="parallax__layer parallax__layer--base">
 
 
         <div id="group6" class="parallax__group ">
-          <div class="parallax__layer parallax__layer--back">
+          <div class="parallax__layer parallax__layer--back"> -->
             <!-- <div class="title">Background Layer</div> -->
 
 
 
-          </div>
-          <div class="parallax__layer parallax__layer--base ">
+          <!-- </div>
+          <div class="parallax__layer parallax__layer--base "> -->
             <!-- <div class="title">Base Layer</div> -->
 
 
-          </div>
+          <!-- </div>
 
           <div id="group7" class="parallax__group bg-dark ">
-            <div class="parallax__layer parallax__layer--base bg-dark">
+            <div class="parallax__layer parallax__layer--base bg-dark"> -->
               <!-- <div class="title">Base Layer</div> -->
 
 
-            </div>
+            <!-- </div>
 
           </div>
 
         </div>
 
-      </div>
+      </div> -->
 
 
 
