@@ -13,7 +13,22 @@
 <script src="https://kit.fontawesome.com/e08ba8ba00.js" crossorigin="anonymous"></script>
     <title> projects</title>
 </head>
-<body>
+<style>
+        .bgimg {
+           background-image: url("images/flower2.jpeg"); 
+          height: 100%;
+          margin: 0;
+        }
+        .bgimg2 {
+          background-image: url("images/flower2.jpeg");
+          height: 100%;
+          margin: 0;
+          /* background-position: center; */
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+    </style>
+<body class="bgimg ">
 
  <!-- NAVIGATION -->
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,14 +54,14 @@
 
       <!-- PROJECTS -->
 
-      <div class="card bg-dark mt-5" id='layer1'>
-        <div class="card-body">
+      <div class="card  mt-5 shadow-lg p-1 mb-3 bg-white rounded" id=''>
+        <div class="card-body bgimg2">
 
           <div class="card  ">
-            <div class="card-header text-center" id="projects">
+            <div class="card-header text-center shadow-lg p-3 mb-5 bg-white rounded" id="projects">
               PROJECTS
             </div>
-            <div class="card-body bg-dark">
+            <div class="card-body bgimg2">
 
 
               <div class="container-fluid">
@@ -54,23 +69,24 @@
                   <div class="ol-sm-6 col-md-6">
 
                     <div class="card text-center">
-                      <img src="images/jacarandaModu.png" class="card-img-top" alt="Jacaranda restaurant site">
+                      <h5 class="card-title text-center shadow-lg p-3 mb-5 bg-white rounded">JACARANDA</h5>
+
+                      <img src="images/jacarandaModu.png" class="card-img-top shadow-lg p-3 mb-5 bg-white rounded" alt="Jacaranda restaurant site">
                       <div class="card-body">
-                        <h5 class="card-title text-center">JACARANDA</h5>
                         <p class="card-text text-center">A website for a restaurant.</p>
-                        <a href="https://alphalarybah.github.io/JACARANDAMODU/" class="btn btn-dark">Visit This
+                        <a href="https://alphalarybah.github.io/JACARANDAMODU/" class="btn text-light shadow-lg p-3 mb-5 bg-dark rounded"> Click Here To Visit This
                           Site</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-sm-6 col-md-6 mt-2">
                     <div class="card text-center">
-                      <img src="images/a$'t.png" class="card-img-top" alt="A$'T finace site">
+                        <h5 class="card-title text-center shadow-lg p-3 mb-5 bg-white rounded">A$'T Finance</h5>
+
+                      <img src="images/a$'t.png" class="card-img-top  shadow-lg p-3 mb-5 bg-white rounded" alt="A$'T finace site">
                       <div class="card-body  ">
-                        <hr>
-                        <h5 class="card-title text-center">A$'T Finance</h5>
                         <p class="card-text text-center">A website that for financial caculations.</p>
-                        <a href="https://github.com/AlphaLaryBah/AST.git" class="btn btn-dark">Visit This Site</a>
+                        <a href="https://github.com/AlphaLaryBah/AST.git" class="btn btn-dark shadow-lg p-3 mb-5 rounded">Click Here To Visit This Site</a>
                       </div>
                     </div>
 
@@ -85,52 +101,48 @@
 
 
 
-
-
-
-          <!-- FOOTER/CONTACT -->
-          <div class="container-fluid" id="contact">
+         <!-- FOOTER/CONTACT -->
+          <div class="container-fluid " id="contact">
             <div class="row">
               <div class="col-sm-6 col-md-12">
 
-                <ul class="nav justify-content-center " style="height:200px">
+                <ul class="nav justify-content-center shadow-lg p-3 mb-5 bg-white rounded mt-5" style="height:200px">
                   <li class="nav-item" id="contact">
-                    <a class="nav-link" href="#layer1"><i class="fas fa-arrow-circle-up"
-                        style="font-size: 90px; color:black"></i></a>
-                  </li>
-                  
+                    <a class="nav-link" href=""><i class="fas fa-arrow-circle-up "
+                        style="font-size: 60px; color:black"></i></a>
+                  </li>     
                   <!-- email -->
                   <li class="nav-item">
                     <a class="btn btn-link btn-floating btn-lg text-dark m-1"
                       href="mailto:alphalarybah@gmail.com" role="button" data-mdb-ripple-color="dark"><i
-                        class="fas fa-envelope display-2"></i></a>
+                        class="fas fa-envelope display-5"></i></a>
                   </li>
 
                   <!-- phone -->
                   <li class="nav-item">
                     <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="tel:3038856862"
                       role="button" data-mdb-ripple-color="dark"><i
-                        class="fas fa-mobile-alt display-2"></i></a>
+                        class="fas fa-mobile-alt display-5"></i></a>
                   </li>
 
                   <!-- Github -->
                   <li class="nav-item">
                     <a class="btn btn-link btn-floating btn-lg text-dark m-1"
                       href="https://github.com/AlphaLaryBah" role="button" data-mdb-ripple-color="dark"><i
-                        class="fab fa-github display-2"></i></a>
+                        class="fab fa-github display-5"></i></a>
 
                   </li>
                   <!-- email -->
                   <li class="nav-item">
                     <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                      href="https://www.linkedin.com/in/alpha-bah-223b1a211/" role="button" data-mdb-ripple-color="dark">  <i class="fab fa-linkedin display-2"></i>
+                      href="https://www.linkedin.com/in/alpha-bah-223b1a211/" role="button" data-mdb-ripple-color="dark">  <i class="fab fa-linkedin display-5"></i>
                     </a>
                   </li>
                   </ul>
               </div>
             </div>
           </div>
-    
+         
      <!-- jQuery, then Popper.js, Bootstrap JavaScript plugins.-->
 
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
