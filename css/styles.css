@@ -1,4 +1,3 @@
-
 /* ANIMATION */
 #showcase {
   height: 300px;
@@ -14,8 +13,6 @@
   animation: heading;
   animation-duration: 5s;
   animation-fill-mode: forwards;
-
-
 }
 
 @keyframes heading {
@@ -34,8 +31,6 @@
   animation-name: content;
   animation-duration: 5s;
   animation-fill-mode: forwards;
-
-
 }
 
 @keyframes content {
@@ -48,34 +43,27 @@
   }
 }
 
-
 .bootstrapLogo {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-
   position: relative;
   animation: bootstrapLogo;
   animation-delay: 3s;
-
   animation-duration: 5s;
   animation-fill-mode: forwards;
-       animation-iteration-count: infinite; 
-
-
+  animation-iteration-count: infinite;
 }
 
 @keyframes bootstrapLogo {
   0% {
     top: -1000px;
     opacity: 20;
-
   }
 
   100% {
     top: 0px;
     opacity: 0;
-
   }
 }
 
@@ -83,28 +71,23 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-
   position: relative;
   animation: mongoLogo;
   animation-delay: 3s;
-
   animation-duration: 5s;
   animation-fill-mode: forwards;
-       animation-iteration-count: infinite; 
-
+  animation-iteration-count: infinite;
 }
 
 @keyframes mongoLogo {
   0% {
     top: -1000px;
     opacity: 20;
-
   }
 
   100% {
     top: 0px;
     opacity: 0;
-
   }
 }
 
@@ -112,28 +95,23 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-
   position: relative;
   animation: mongoLogo;
   animation-delay: 3s;
-
   animation-duration: 5s;
   animation-fill-mode: forwards;
-       animation-iteration-count: infinite; 
-
+  animation-iteration-count: infinite;
 }
 
 @keyframes nodeLogo {
   0% {
     top: -1000px;
     opacity: 20;
-
   }
 
   100% {
     top: 0px;
     opacity: 0;
-
   }
 }
 
@@ -144,117 +122,92 @@
   position: relative;
   animation: gitLogo;
   animation-delay: 5s;
-
   animation-duration: 5s;
   animation-fill-mode: forwards;
-       animation-iteration-count: infinite; 
-
-
+  animation-iteration-count: infinite;
 }
 
 @keyframes gitLogo {
   0% {
     top: -1000px;
     opacity: 20;
-
   }
 
   100% {
     top: 0px;
     opacity: 0;
-
   }
 }
 
 .htmlLogo {
   width: 100px;
   height: 100px;
-
   position: relative;
   animation: htmlLogo;
   animation-delay: 6s;
-
   animation-duration: 5s;
   animation-fill-mode: forwards;
-       animation-iteration-count: infinite; 
-
-
+  animation-iteration-count: infinite;
 }
 
 @keyframes htmlLogo {
   0% {
     top: -1000px;
     opacity: 20;
-
   }
 
   100% {
     top: 0px;
     opacity: 0;
-
   }
 }
 
 .jsLogo {
   width: 100px;
   height: 100px;
-
   position: relative;
   animation: jsLogo;
   animation-delay: 7s;
-
   animation-duration: 5s;
   animation-fill-mode: forwards;
-       animation-iteration-count: infinite; 
-
-
+  animation-iteration-count: infinite;
 }
 
 @keyframes jsLogo {
   0% {
     top: -1000px;
     opacity: 20;
-
   }
 
   100% {
     top: 0px;
     opacity: 0;
-
   }
 }
 
 .reactLogo {
   width: 100px;
   height: 100px;
-
   position: relative;
   animation: reactLogo;
   animation-delay: 8s;
-
   animation-duration: 5s;
   animation-fill-mode: forwards;
-       animation-iteration-count: infinite; 
-
-
-
+  animation-iteration-count: infinite;
 }
 
 @keyframes reactLogo {
   0% {
     top: -1000px;
     opacity: 20;
-
   }
 
   100% {
     top: 0px;
     opacity: 0;
-
   }
 }
 
-
-.footer{
+.footer {
   margin-top: 600px;
 }
