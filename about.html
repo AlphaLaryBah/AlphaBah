@@ -27,19 +27,35 @@
 <body class="bgimg">
 
   <!-- NAVIGATION -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">{Alpha:"Bah"}</a>
+      <a class="navbar-brand " href="index.html">{Alpha:"Bah"}</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link " aria-current="page" href="index.html">Home</a>
-          <a class="nav-link active" href="about.html">About</a>
-          <a class="nav-link" href="projects.html">Projects</a>
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link " aria-current="page" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+              <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+            </svg> Home</a>
 
+          <a class="nav-link active" href="about.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg> About</a>
+          <a class="nav-link" href="projects.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-easel" viewBox="0 0 16 16">
+              <path
+                d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0zM2 3v7h12V3H2z" />
+            </svg> Projects</a>
+          <!-- <a class="nav-link" href="#contact">Contact</a> -->
+          <a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+              <path
+                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+            </svg> Contact
+          </a>
         </div>
       </div>
     </div>
@@ -51,7 +67,12 @@
   <div class="card  shadow-lg p-1 mb-2 bg-white rounded">
     <div class="card-body shadow-lg p-0 mb-2 bg-white rounded">
       <div class="card">
-        <h4 class="card-header text-center text-muted shadow-lg p-0 mb-1 bg-white rounded " id="about">Alpha's Bio</h4>
+        <h4 class="card-header text-center text-muted shadow-lg p-1 mb-1 bg-white rounded " id="about">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+          </svg> Alpha's Bio
+        </h4>
         <div class="card-body">
           <h5 class="card-title text-center"> <span class="text-primary">let</span> <span class="text-muted">greetings</span> = <span class="text-warning">"Hello World!"</span>;
           </h5>
@@ -150,35 +171,73 @@
     </div>
   </div>
 
+  <!-- OFFCANVAS -->
+  <div class="offcanvas offcanvas-top  " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header bg-danger text-light shadow-lg p-3 mb-5  rounded"> Contact
+      <h5 class="offcanvas-title nav justify-content-center" id="offcanvasScrollingLabel"></h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="container-fluid " id="contact">
+        <div class="row">
+          <div class="col-sm-6 col-md-12">
+
+            <ul class="nav justify-content-center " style="height:200px">
+
+              <!-- email -->
+              <li class="nav-item">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="mailto:alphalarybah@gmail.com" target=”_blank” role="button" data-mdb-ripple-color="dark"><i class="fas fa-envelope display-5"></i></a>
+              </li>
+
+              <!-- phone -->
+              <li class="nav-item">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="tel:3038856862" target=”_blank” role="button" data-mdb-ripple-color="dark"><i class="fas fa-mobile-alt display-5"></i></a>
+              </li>
+
+              <!-- Github -->
+              <li class="nav-item">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/AlphaLaryBah" target=”_blank” role="button" data-mdb-ripple-color="dark"><i class="fab fa-github display-5"></i></a>
+
+              </li>
+              <!-- email -->
+              <li class="nav-item">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/alpha-bah-223b1a211/" target=”_blank” role="button" data-mdb-ripple-color="dark"> <i class="fab fa-linkedin display-5"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- FOOTER/CONTACT -->
-  <div class="container-fluid" id="contact">
+  <div class="container-fluid " id="contact">
     <div class="row">
       <div class="col-sm-6 col-md-12">
 
-        <ul class="nav justify-content-center shadow-lg p-3 mb-5 bg-white rounded" style="height:200px">
+        <ul class="nav justify-content-center shadow-lg p-3 mb-5 bg-white rounded mt-5" style="height:200px">
           <li class="nav-item" id="contact">
             <a class="nav-link" href=""><i class="fas fa-arrow-circle-up " style="font-size: 60px; color:black"></i></a>
           </li>
-
           <!-- email -->
           <li class="nav-item">
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="mailto:alphalarybah@gmail.com" role="button" data-mdb-ripple-color="dark"><i class="fas fa-envelope display-2"></i></a>
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="mailto:alphalarybah@gmail.com" target=”_blank” role="button" data-mdb-ripple-color="dark"><i class="fas fa-envelope display-5"></i></a>
           </li>
 
           <!-- phone -->
           <li class="nav-item">
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="tel:3038856862" role="button" data-mdb-ripple-color="dark"><i class="fas fa-mobile-alt display-2"></i></a>
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="tel:3038856862" target=”_blank” role="button" data-mdb-ripple-color="dark"><i class="fas fa-mobile-alt display-5"></i></a>
           </li>
 
           <!-- Github -->
           <li class="nav-item">
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/AlphaLaryBah" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github display-2"></i></a>
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/AlphaLaryBah" target=”_blank” role="button" data-mdb-ripple-color="dark"><i class="fab fa-github display-5"></i></a>
 
           </li>
           <!-- email -->
           <li class="nav-item">
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/alpha-bah-223b1a211/" role="button" data-mdb-ripple-color="dark"> <i class="fab fa-linkedin display-2"></i>
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/alpha-bah-223b1a211/" target=”_blank” role="button" data-mdb-ripple-color="dark"> <i class="fab fa-linkedin display-5"></i>
             </a>
           </li>
         </ul>
