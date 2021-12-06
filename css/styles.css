@@ -12,6 +12,16 @@ span {
   color: #51207E;
 }
 
+.fa-code {
+  font-size: 20px;
+  color: #F47421;
+  margin: 5px;
+}
+
+.fa-code:hover {
+  color: #51207E;
+}
+
 .bioName {
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
@@ -147,8 +157,7 @@ span {
 
   .butn {
     font-family: 'Merriweather', serif;
-    position: relative;
-    width: 300px;
+    width: 100%;
     background: #EABE25;
     box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.23);
     border-radius: 5px;
@@ -156,8 +165,7 @@ span {
 
   .butnUi {
     font-family: 'Merriweather', serif;
-    position: relative;
-    width: 300px;
+    width: 100%;
     background: #EABE25;
     box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.23);
     border-radius: 5px;
@@ -208,7 +216,7 @@ span {
     letter-spacing: 0.14em;
     color: #dacde6;
     position: absolute;
-    left: 300px;
+    left: 500px;
     top: 200px;
   }
 
@@ -335,8 +343,7 @@ span {
 
   .butn {
     font-family: 'Merriweather', serif;
-    position: relative;
-    width: 570px;
+    width: 100%;
     background: #EABE25;
     box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.23);
     border-radius: 5px;
@@ -344,8 +351,7 @@ span {
 
   .butnUi {
     font-family: 'Merriweather', serif;
-    position: relative;
-    width: 1125px;
+    width: 100%;
     background: #EABE25;
     box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.23);
     border-radius: 5px;
