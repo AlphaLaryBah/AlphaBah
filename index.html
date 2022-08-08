@@ -22,7 +22,7 @@
 
 <body class='mainBg'>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark  d-lg-none ">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-md-none d-lg-none ">
     <div class="container-fluid">
       <a class="navbar-brand active" href="index.html"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,36 +30,38 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link navNames" href="projects.html">My projects</a>
-          <a class="nav-link navNames" href="design.html">Ui designs</a>
-          <a class="nav-link navNames" href="about.html"> About me</a>
+          <a class="nav-link navNames" href="projects.html"> Projects</a>
+          <!-- <a class="nav-link navNames" href="design.html">Ui designs</a> -->
+          <a class="nav-link navNames" href="about.html"> About</a>
           <a class="nav-link navNames" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            Contact me
+            Contact 
           </a>
         </div>
       </div>
     </div>
   </nav>
 
+    <!-- <div class="shadow-sm p-3 mb-5 bg-white"></div> -->
 
 
   <div class="row">
-    <div class="col-sm-12 col-lg-12 ">
+    <div class="col-sm-12 col-lg-12  ">
       <p class='myName'>Alpha Bah</p>
     </div>
   </div>
 
   <div class="row">
     <div class="col-sm-6">
-      <p class='myTitle'>Software developer</p>
+      <p class='myTitle  '>Software engineer</p>
 
     </div>
 
   </div>
 
   <div class="row logosDiv mt-5">
+    <div class="logosDisplayed">
     <div class="col">
-      <img class='bootLogo d-none d-lg-inline ' src="images/BootstrapLogo.png" />
+      <img class='bootLogo d-none d-lg-inline  rounded ' src="images/BootstrapLogo.png" />
     </div>
     <div class="col">
       <img class='jsLogo' src="images/JavascriptLogo.png" />
@@ -76,75 +78,118 @@
     </div>
     <div class="col ">
 
-      <img class='mongoLogo d-none d-lg-inline' src="images/MongoDBLogo.png" />
+      <img class='mongoLogo  d-lg-inline' src="images/MongoDBLogo.png" />
 
     </div>
+</div>
 
+    <div class="row navLinks  shadow-sm p-3 mb-5 bg-white rounded navgtion">
+      <div class="col-sm-3 col-lg-4 ">
 
-    <div class="row navLinks ">
-      <div class="col-sm-3 col-lg-3 ">
-
-        <a class='project d-none d-lg-inline' href="projects.html">My projects</a>
+        <a class='project d-none d-md-inline d-lg-inline underlineDiv' href="projects.html">Projects</a>
       </div>
 
 
 
-      <div class="col-sm-3 col-lg-3">
+      <!-- <div class="col-sm-3 col-lg-3">
         <a class="designed d-none d-lg-inline" href="design.html">Ui designs</a>
 
+      </div> -->
+      <div class="col-sm-3 col-lg-4 ">
+
+        <a class='about d-none d-md-inline d-lg-inline underlineDiv' href="about.html">About </a>
       </div>
-      <div class="col-sm-3 col-lg-3">
 
-        <a class='about d-none d-lg-inline' href="about.html">About me</a>
-      </div>
+      <div class="col-sm-3 col-lg-4 ">
 
-      <div class="col-sm-3 col-lg-3 ">
-
-        <a class="contact d-none d-lg-inline " data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Contact me</a>
+        <a class="contact d-none d-md-inline d-lg-inline underlineDiv " data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Contact </a>
       </div>
 
     </div>
 
     <!-- OFFCANVAS -->
-    <div class="offcanvas offcanvas-start  bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-      <div class="offcanvas-header bg-warning text-light shadow-lg p-3 mb-5  fs-1 rounded navNames"> Contact Me
-        <h5 class="offcanvas-title nav justify-content-center" id="offcanvasScrollingLabel"></h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+     <div
+      class="offcanvas offcanvas-start bg-dark"
+      data-bs-scroll="true"
+      data-bs-backdrop="false"
+      tabindex="-1"
+      id="offcanvasScrolling"
+      aria-labelledby="offcanvasScrollingLabel"
+    >
+      <div
+        class="offcanvas-header bg-dark text-warning shadow-lg p-3 mb-5 fs-1  navNames"
+      >
+        
+        <h3
+          class="offcanvas-title nav d-block justify-content-center text-warning"
+          id="offcanvasScrollingLabel"
+        >Contact</h3>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
-      <div class="offcanvas-body bg-dark">
-        <div class="container-fluid " id="contact">
+      <div class="offcanvas-body bg-dark" 
+      >
+        <div class="container-fluid" id="contact">
           <div class="row">
             <div class="col-sm-6 col-md-12">
-
-              <ul class="nav justify-content-center " style="height:200px">
-
+              <ul class="nav justify-content-center" style="height: 200px">
                 <!-- email -->
                 <li class="nav-item">
                   <p class="text-light mr-3 navNames">Email</p>
 
-                  <a class="btn btn-link btn-floating btn-lg text-light m-1" href="mailto:alphalarybah@gmail.com" target=”_blank” role="button" data-mdb-ripple-color="dark"><i class="fas fa-envelope display-5"></i></a>
-
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-light m-1"
+                    href="mailto:alphalarybah@gmail.com"
+                    target="”_blank”"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fas fa-envelope display-5"></i
+                  ></a>
                 </li>
 
                 <!-- phone -->
                 <li class="nav-item">
                   <p class="text-light mr-3 navNames">Phone</p>
 
-                  <a class="btn btn-link btn-floating btn-lg text-light m-1" href="tel:3038856862" target=”_blank” role="button" data-mdb-ripple-color="dark"><i class="fas fa-mobile-alt display-5"></i></a>
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-light m-1"
+                    href="tel:3038856862"
+                    target="”_blank”"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fas fa-mobile-alt display-5"></i
+                  ></a>
                 </li>
 
                 <!-- Github -->
                 <li class="nav-item">
                   <p class="text-light mr-3 navNames">Github</p>
 
-                  <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://github.com/AlphaLaryBah" target=”_blank” role="button" data-mdb-ripple-color="dark"><i class="fab fa-github display-5"></i></a>
-
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-light m-1"
+                    href="https://github.com/AlphaLaryBah"
+                    target="”_blank”"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-github display-5"></i
+                  ></a>
                 </li>
                 <!-- Linkedin -->
                 <li class="nav-item">
                   <p class="text-light mr-3 navNames">Linkedin</p>
 
-                  <a class="btn btn-link btn-floating btn-lg text-light m-1 " href="https://www.linkedin.com/in/alpha-bah-223b1a211/" target=”_blank” role="button" data-mdb-ripple-color="dark"> <i class="fab fa-linkedin display-5"></i>
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-light m-1"
+                    href="https://www.linkedin.com/in/alpha-bah-223b1a211/"
+                    target="”_blank”"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                  >
+                    <i class="fab fa-linkedin display-5"></i>
                   </a>
                 </li>
               </ul>
