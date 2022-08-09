@@ -39,7 +39,7 @@ span {
 }
 
 .bgAbout {
- background: rgba(235, 234, 234, 0.87);}
+ background: rgba(254, 253, 253, 0.87);}
 
 .crdTitleOne {
   font-family: "Merriweather";
@@ -47,14 +47,20 @@ span {
   color: #f47421;
   letter-spacing: 2px;
 }
+h1{
+    font-family: "Merriweather";
 
+}
+.card-title{
+   font-family: "Merriweather";
+}
 .quotes {
   font-family: "Indie Flower", cursive;
   font-size: 20px;
 }
 
 .crdTitleTwo {
-  font-family: "Indie Flower", cursive;
+font-family: "Merriweather";
   color: #f47421;
   font-size: 25px;
 }
@@ -185,13 +191,15 @@ span {
 
   }
  .imgeDiv {
-    /* background-color: white; */
+     background-color:rgb(238, 238, 238);
+    margin-left: 20; 
+    padding: 20px;
     border-radius: 100%;
     margin-left: 20; 
     padding: 20px;
     vertical-align: middle;
   width: 320px;
-  height: 390px;
+  height: 420px;
   border-radius: 50%;
   border: 3px solid white;
   }
@@ -401,17 +409,20 @@ span {
     display: block;
     justify-content: center;
     margin-left: 20px;
+      border-radius: 50%;
+      justify-content: center;
+
 
   }
 
   .imgeDiv {
-    /* background-color: white;
-    border-radius: 100%;
-    margin-left: 20; */
+background-color:rgb(238, 238, 238);   
+ border-radius: 100%;
+    margin-left: 20; 
     padding: 20px;
     vertical-align: middle;
   width: 340px;
-  height: 400px;
+  height: 450px;
   border-radius: 50%;
   border: 3px solid white;
   }
